@@ -1,0 +1,100 @@
+body {
+    background: rgb(201,177,177);
+background: linear-gradient(90deg, rgba(201,177,177,1) 0%, rgba(50,205,141,1) 0%, rgba(59,158,208,1) 100%, rgba(126,126,126,1) 100%, rgba(108,28,152,1) 100%);
+    color: aliceblue;
+    margin: 0;
+    padding: 0;
+}
+
+
+h1 {
+    color: aliceblue;
+    text-align: center;
+}
+
+h2, h3 {
+    color: white;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 20px auto;
+}
+
+th, td {
+    border: 1px solid white;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: rgb(98, 98, 193);
+    color: aliceblue;
+}
+
+.profile-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px; /* Jarak antar gambar */
+    margin-top: 20px;
+}
+
+.profile-container div {
+    text-align: center;
+}
+
+img {
+    width: 15%;
+    border-radius: 10%;
+    box-shadow: 30px 20px rgba(0, 0, 0, 0.2);
+    height: 275px;
+    display: flex;
+    margin: 0 auto; /* Agar gambar berada di tengah */
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: rgb(255, 8, 0);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(98, 98, 193);
+}
+
+.social-links a {
+    color: beige;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.detail-table {
+    display: none;
+    margin-top: 10px;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.detail-table, .detail-table th, .detail-table td {
+    border: 1px solid black;
+}
+
+.detail-table th, .detail-table td {
+    padding: 8px;
+    text-align: left;
+}
+
+.detail-table th {
+    background-color: rgb(23, 26, 199);
+    color: white;
+}
